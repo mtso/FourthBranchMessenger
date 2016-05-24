@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F4285BC1CDAB3F200C79114 /* MessageMO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F4285BB1CDAB3F200C79114 /* MessageMO.swift */; };
 		7FF236F71CD9C38300E24C2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF236F61CD9C38300E24C2A /* AppDelegate.swift */; };
-		7FF236F91CD9C38300E24C2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF236F81CD9C38300E24C2A /* ViewController.swift */; };
 		7FF236FC1CD9C38300E24C2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF236FA1CD9C38300E24C2A /* Main.storyboard */; };
 		7FF236FF1CD9C38300E24C2A /* FourthBranchMessenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7FF236FD1CD9C38300E24C2A /* FourthBranchMessenger.xcdatamodeld */; };
 		7FF237011CD9C38300E24C2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FF237001CD9C38300E24C2A /* Assets.xcassets */; };
 		7FF237041CD9C38300E24C2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FF237021CD9C38300E24C2A /* LaunchScreen.storyboard */; };
+		7FF2370E1CD9C6EB00E24C2A /* MessengerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF2370D1CD9C6EB00E24C2A /* MessengerTableViewController.swift */; };
+		7FF237101CD9C82000E24C2A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF2370F1CD9C82000E24C2A /* Message.swift */; };
+		7FF237121CD9CA4500E24C2A /* MessengerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF237111CD9CA4500E24C2A /* MessengerTableViewCell.swift */; };
+		7FF237141CD9D16800E24C2A /* ChatTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF237131CD9D16800E24C2A /* ChatTableViewController.swift */; };
+		7FF237161CD9D53300E24C2A /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF237151CD9D53300E24C2A /* ChatTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F4285BB1CDAB3F200C79114 /* MessageMO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageMO.swift; sourceTree = "<group>"; };
 		7FF236F31CD9C38300E24C2A /* FourthBranchMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FourthBranchMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FF236F61CD9C38300E24C2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7FF236F81CD9C38300E24C2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7FF236FB1CD9C38300E24C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FF236FE1CD9C38300E24C2A /* FourthBranchMessenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FourthBranchMessenger.xcdatamodel; sourceTree = "<group>"; };
 		7FF237001CD9C38300E24C2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FF237031CD9C38300E24C2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FF237051CD9C38300E24C2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FF2370D1CD9C6EB00E24C2A /* MessengerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessengerTableViewController.swift; sourceTree = "<group>"; };
+		7FF2370F1CD9C82000E24C2A /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		7FF237111CD9CA4500E24C2A /* MessengerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessengerTableViewCell.swift; sourceTree = "<group>"; };
+		7FF237131CD9D16800E24C2A /* ChatTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewController.swift; sourceTree = "<group>"; };
+		7FF237151CD9D53300E24C2A /* ChatTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				7FF236F61CD9C38300E24C2A /* AppDelegate.swift */,
-				7FF236F81CD9C38300E24C2A /* ViewController.swift */,
+				7FF2370D1CD9C6EB00E24C2A /* MessengerTableViewController.swift */,
+				7FF237111CD9CA4500E24C2A /* MessengerTableViewCell.swift */,
+				7FF237131CD9D16800E24C2A /* ChatTableViewController.swift */,
+				7FF237151CD9D53300E24C2A /* ChatTableViewCell.swift */,
+				7FF2370F1CD9C82000E24C2A /* Message.swift */,
+				7F4285BB1CDAB3F200C79114 /* MessageMO.swift */,
 				7FF236FA1CD9C38300E24C2A /* Main.storyboard */,
 				7FF237001CD9C38300E24C2A /* Assets.xcassets */,
 				7FF237021CD9C38300E24C2A /* LaunchScreen.storyboard */,
@@ -138,7 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FF236F91CD9C38300E24C2A /* ViewController.swift in Sources */,
+				7FF2370E1CD9C6EB00E24C2A /* MessengerTableViewController.swift in Sources */,
+				7FF237101CD9C82000E24C2A /* Message.swift in Sources */,
+				7FF237141CD9D16800E24C2A /* ChatTableViewController.swift in Sources */,
+				7F4285BC1CDAB3F200C79114 /* MessageMO.swift in Sources */,
+				7FF237121CD9CA4500E24C2A /* MessengerTableViewCell.swift in Sources */,
+				7FF237161CD9D53300E24C2A /* ChatTableViewCell.swift in Sources */,
 				7FF236FF1CD9C38300E24C2A /* FourthBranchMessenger.xcdatamodeld in Sources */,
 				7FF236F71CD9C38300E24C2A /* AppDelegate.swift in Sources */,
 			);
@@ -288,6 +308,7 @@
 				7FF2370A1CD9C38300E24C2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
